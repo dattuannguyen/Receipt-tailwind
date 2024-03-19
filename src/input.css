@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities";
 
 .card{
-    @apply bg-white rounded overflow-hidden shadow-md relative cursor-pointer;
+    @apply bg-white rounded overflow-hidden shadow-md relative cursor-pointer transform hover:scale-150 hover:bg-opacity-50 transition ease-out duration-700;
 }
 
 .badge{
